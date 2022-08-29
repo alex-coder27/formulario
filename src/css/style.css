@@ -1,0 +1,118 @@
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: flex;
+    max-width: var(--max-width-size);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../images/bg-repeat.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.container-section {
+    display: flex;
+    align-items: center;
+}
+
+.container-section .container-texto {
+    color: var(--color-primario);
+    width: 300px;
+}
+
+.container-section .container-texto .titulo {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.container-section .container-texto .frase {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container-section .container-formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primario);
+    width: 340px;
+    min-height: 378px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 72px;
+}
+
+.container-section .container-formulario .item {
+    margin-bottom: 14px;
+}
+
+.container-section .container-formulario .item .input {
+    border: 1px solid var(--color-secundario);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 290px;
+    padding-left: 10px;
+}
+
+.container-section .container-formulario .item .input.input-usuario {
+    height: 35px;
+    position: relative;
+}
+
+.container-section .container-formulario .item .input::placeholder {
+    color: var(--color-ligth-gray);
+    font-weight: 700;
+}
+
+.container-section .container-formulario .item .input.input-texto {
+    height: 92px;
+    padding-top: 8px;
+}
+
+.obrigatorio {
+    display: none;
+    font-size: 8px;
+    font-weight: 400;
+    color: var(--color-red);
+    position: absolute;
+}
+
+.container-section .container-formulario .item.borda-obrigatoria .obrigatorio {
+    display: block;
+}
+
+.container-section .container-formulario .item.borda-obrigatoria .input {
+    border-color: var(--color-red);
+}
+
+.container-section .container-formulario .item.borda-sucesso .input {
+    border-color: var(--color-green);
+}
+
+.container-section .container-formulario .paragrafo {
+    font-size: 15px;
+    font-weight: 400;
+    align-self: flex-start;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.container-section .container-formulario .botao {
+    padding: 10px 125px;
+    background-color: var(--color-ligth-green);
+    border-radius: 5px;
+    align-self: center;
+    text-align: center;
+    color: var(--color-primario);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.container-section .container-formulario .botao:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-out;
+}

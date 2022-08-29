@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - HTML-CSS-JS</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <main>
+        <section class="container-section">
+            <div class="container-texto">
+                <h1 class="titulo">
+                    FICOU COM DÚVIDA?
+                    <br>
+                    NOS MANDE UMA MENSAGEM!
+                </h1>
+                <p class="frase">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+            </div>
+            <div class="container-formulario">
+                <div class="item">
+                    <input class="input input-usuario" type="text" name="nome" placeholder="Nome completo *">
+                    <p class="obrigatorio">campo obrigatório</p>
+                </div>
+                <div class="item">
+                    <input class="input input-usuario" type="email" name="email" placeholder="Email *">
+                    <p class="obrigatorio">campo obrigatório</p>
+                </div>
+                <div class="item">
+                    <input class="input input-usuario" type="tel" name="telefone" placeholder="Telefone *">
+                    <p class="obrigatorio">campo obrigatório</p>
+                </div>
+                <div class="item">
+                    <textarea class="input input-texto" name="mensagem" cols="20" rows="5" placeholder="Mensagem *"></textarea>
+                    <p class="obrigatorio">campo obrigatório</p>
+                </div>
+                <p class="paragrafo">*campos obrigatórios</p>
+                <a class="botao" href="#" id="botao">Enviar</a>
+            </div>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="./src/js/index.js"></script>
+</body>
+</html>
