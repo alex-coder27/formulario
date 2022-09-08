@@ -53,21 +53,21 @@
 
 @media(max-width: 541px) {
     .container-section .container-texto {
-        width: 300px;
+        width: 340px;
         margin-bottom: 20px;
     }
 
     .container-section .container-texto .titulo {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .container-section .container-texto .frase {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .container-section .container-formulario {
-        width: 340px;
-        min-height: 378px;
+        width: 345px;
+        min-height: 460px;
     }
 
     .container-section .container-formulario .item {
@@ -75,16 +75,16 @@
     }
 
     .obrigatorio {
-        font-size: 9px;
+        font-size: 13px;
     }
 
     .container-section .container-formulario .item .input {
-        width: 290px;
+        width: 311px;
         font-size: 15px;
     }
 
     .container-section .container-formulario .item .input.input-usuario {
-        height: 35px;
+        height: 55px;
     }
 
     .container-section .container-formulario .paragrafo {
@@ -97,22 +97,26 @@
     }
 }
 
-@media(max-width: 541px) {
+@media(max-width: 280px) {
     .container-section .container-texto {
-        width: 200px;
+        width: 270px;
     }
 
     .container-section .container-texto .titulo {
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .container-section .container-texto .frase {
-        font-size: 1rem;
+        font-size: 14px;
     }
 
     .container-section .container-formulario {
         width: 250px;
         min-height: 350px;
+    }
+
+    .obrigatorio {
+        font-size: 12px;
     }
 
     .container-section .container-formulario .item .input {
